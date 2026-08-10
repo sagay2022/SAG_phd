@@ -21,10 +21,10 @@ Please see lab notebook entry https://benchling.com/s/etr-3BYVu6TiPBJAaRXgvEq4?i
 All raw sequencing data obtained from /n/data1/joslin/icrb/kostic/RAW/2024-08-23_Azenta/. This is a permanent directory stored on HMS O2. Contact adk@kosticlab.org (Alex Kostic) for more information and access.
 
 
-The assembled and annotated sequencing data was obtained from Alex Kostic on 2026/08/07. This was conducted by Bakta. This is stored as a .zip file in this directory as ?
+The assembled and annotated sequencing data was obtained from Alex Kostic on 2026/08/07. This was conducted by Bakta. This is stored as a .zip file in this directory as "bakta".
 
 
-Amino acid sequences are stored in this director as AlphaFold3/2026-08-10_LUBac_cocktail_ldh/LUBac_lactate_dehydrogenase_oxidase_seqs.csv
+Amino acid sequences are stored in this director as "AlphaFold3/2026-08-10_LUBac_cocktail_ldh/LUBac_lactate_dehydrogenase_oxidase_seqs.csv"
 
 
 All ligands were obtained from PubChem as SMILES codes.
