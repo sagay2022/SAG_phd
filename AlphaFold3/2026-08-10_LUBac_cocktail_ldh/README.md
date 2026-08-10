@@ -24,10 +24,12 @@ All raw sequencing data obtained from /n/data1/joslin/icrb/kostic/RAW/2024-08-23
 The assembled and annotated sequencing data was obtained from Alex Kostic on 2026/08/07. This was conducted by Bakta. This is stored as a .zip file in this directory as ?
 
 
-Amino acid sequences are stored in this director as ?
+Amino acid sequences are stored in this director as AlphaFold3/2026-08-10_LUBac_cocktail_ldh/LUBac_lactate_dehydrogenase_oxidase_seqs.csv
 
 
 All ligands were obtained from PubChem as SMILES codes.
+D-lactate- https://pubchem.ncbi.nlm.nih.gov/compound/61503 ; C[C@H](C(=O)O)O
+L-lactate- https://pubchem.ncbi.nlm.nih.gov/compound/107689 ; C[C@@H](C(=O)O)O
 
 ## Versions
 AlphaFold3- Abramson, J., Adler, J., Dunger, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493–500 (2024). https://doi.org/10.1038/s41586-024-07487-w
