@@ -3,7 +3,7 @@
     "name": "AC1_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -28,7 +28,7 @@
     "name": "AC1_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -53,7 +53,7 @@
     "name": "AC1_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -84,7 +84,7 @@
     "name": "AC2_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -109,7 +109,7 @@
     "name": "AC2_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -134,7 +134,7 @@
     "name": "AC2_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -165,7 +165,7 @@
     "name": "AC3_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -190,7 +190,7 @@
     "name": "AC3_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -215,7 +215,7 @@
     "name": "AC3_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -246,7 +246,7 @@
     "name": "AH1_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -271,7 +271,7 @@
     "name": "AH1_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -296,7 +296,7 @@
     "name": "AH1_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -327,7 +327,7 @@
     "name": "AH2_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -352,7 +352,7 @@
     "name": "AH2_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -377,7 +377,7 @@
     "name": "AH2_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -408,7 +408,7 @@
     "name": "AH3_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -433,7 +433,7 @@
     "name": "AH3_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -458,7 +458,7 @@
     "name": "AH3_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -489,7 +489,7 @@
     "name": "CC1_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -514,7 +514,7 @@
     "name": "CC1_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -539,7 +539,7 @@
     "name": "CC1_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -570,7 +570,7 @@
     "name": "CC2_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -595,7 +595,7 @@
     "name": "CC2_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -620,7 +620,7 @@
     "name": "CC2_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -651,7 +651,7 @@
     "name": "CC3_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -676,7 +676,7 @@
     "name": "CC3_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -701,7 +701,7 @@
     "name": "CC3_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -732,7 +732,7 @@
     "name": "EH1_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -757,7 +757,7 @@
     "name": "EH1_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -782,7 +782,7 @@
     "name": "EH1_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -813,7 +813,7 @@
     "name": "EH2_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -838,7 +838,7 @@
     "name": "EH2_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -863,7 +863,7 @@
     "name": "EH2_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -894,7 +894,7 @@
     "name": "EH3_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -919,7 +919,7 @@
     "name": "EH3_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -944,7 +944,7 @@
     "name": "EH3_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -975,7 +975,7 @@
     "name": "EH4_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1000,7 +1000,7 @@
     "name": "EH4_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1025,7 +1025,7 @@
     "name": "EH4_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1056,7 +1056,7 @@
     "name": "VA1_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1081,7 +1081,7 @@
     "name": "VA1_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1106,7 +1106,7 @@
     "name": "VA1_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1137,7 +1137,7 @@
     "name": "VA2_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1162,7 +1162,7 @@
     "name": "VA2_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1187,7 +1187,7 @@
     "name": "VA2_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1218,7 +1218,7 @@
     "name": "VA3_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1243,7 +1243,7 @@
     "name": "VA3_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1268,7 +1268,7 @@
     "name": "VA3_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1299,7 +1299,7 @@
     "name": "VA4_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1324,7 +1324,7 @@
     "name": "VA4_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1349,7 +1349,7 @@
     "name": "VA4_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1380,7 +1380,7 @@
     "name": "D_oxidase_ctrl_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1405,7 +1405,7 @@
     "name": "D_oxidase_ctrl_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1430,7 +1430,7 @@
     "name": "D_oxidase_ctrl_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1461,7 +1461,7 @@
     "name": "L_oxidase_ctrl_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1486,7 +1486,7 @@
     "name": "L_oxidase_ctrl_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1511,7 +1511,7 @@
     "name": "L_oxidase_ctrl_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1542,7 +1542,7 @@
     "name": "L_dehydrogenase_ctrl_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1567,7 +1567,7 @@
     "name": "L_dehydrogenase_ctrl_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1592,7 +1592,7 @@
     "name": "L_dehydrogenase_ctrl_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1623,7 +1623,7 @@
     "name": "D_dehydrogenase_ctrl_L",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1648,7 +1648,7 @@
     "name": "D_dehydrogenase_ctrl_D",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
@@ -1673,7 +1673,7 @@
     "name": "D_dehydrogenase_ctrl_LD",
     "sequences": [
       {
-        "proteinChain": {
+        "protein": {
 
 
 
