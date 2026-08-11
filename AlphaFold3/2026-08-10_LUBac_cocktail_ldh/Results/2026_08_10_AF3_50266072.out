@@ -1,0 +1,1531 @@
+Running pre-pre-flight checks.
+Note: this script does not fully sanitize input arguments. If there are any syntax errors in the specified arguments, the associated errors will be reported elsewhere.
+Checking weight directory specification...
+Done.
+Checking user elegibility...
+Done.
+Checking database directory specification...
+Using default location for alphafold3 databases (/n/shared_db/alphafold-3.0).
+Enforcing Nhmmer and Jackhmmer CPU counts to match allocation CPU count...
+Done.
+The following flags were set: --nhmmer_n_cpu=10 --jackhmmer_n_cpu=10
+Note that DeepMind states that there are only marginal gains on Nhmmer and Jackhmmer after 8 CPUs.
+Checking GPU compute capability...
+Done.
+Pre-pre-flight checks complete.
+WARNING: Correct behavior cannot be guaranteed if there is already a virtual or conda environment active at the time of execution. If there are any library or command-related errors, it may be due to a persisting local conda installation or initialization or the presence of additional python packages in /home/skg245/.local. If deactivating any active environments, manually removing/commenting out any conda init block from your .bashrc or renaming the .local directory does not fix your issue, please contact HMS RC.
+Running pre-flight checks.
+Checking for A100 40G GPU...
+Re-checking for compute capability 7.x GPU...
+Running Alphafold3 using the following flags:
+--output_dir=/home/skg245/2026_08_10_AF3_output --json_path=/home/skg245/AlphaFold3_call.JSON --nhmmer_n_cpu=10 --jackhmmer_n_cpu=10 --model_dir=/n/shared_db/alphafold-3.0/etc --db_dir=/n/shared_db/alphafold-3.0
+The following output (if any) will be printed directly by Alphafold3 below this divider. Depending on your job allocation parameters, errors may print elsewhere.
+
+###########################################################################
+
+Running AlphaFold 3. Please note that standard AlphaFold 3 model parameters are
+only available under terms of use provided at
+https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+If you do not agree to these terms and are using AlphaFold 3 derived model
+parameters, cancel execution of AlphaFold 3 inference with CTRL-C, and do not
+use the model parameters.
+Found local devices: [CudaDevice(id=0)], using device 0: cuda:0
+Building model from scratch...
+Processing fold inputs.
+Processing fold input #1
+Processing fold input AC1_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1071.29 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ac1_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ac1_l
+Predicting 3D structure for AC1_L for seed(s) (1482488598,)...
+Featurising data for seeds (1482488598,)...
+Featurising AC1_L with rng_seed 1482488598.
+Featurising AC1_L with rng_seed 1482488598 took 3.96 seconds.
+Featurising data for seeds (1482488598,) took  9.22 seconds.
+Running model inference for seed 1482488598...
+Running model inference for seed 1482488598 took  72.93 seconds.
+Extracting output structures (one per sample) for seed 1482488598...
+Extracting output structures (one per sample) for seed 1482488598 took  0.51 seconds.
+Running model inference and extracting output structures for seed 1482488598 took 73.44 seconds.
+Running model inference and extracting output structures for seeds (1482488598,) took 73.44 seconds.
+Writing outputs for AC1_L for seed(s) (1482488598,)...
+Done processing fold input AC1_L.
+Processing fold input #2
+Processing fold input AC1_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.07 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ac1_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ac1_d
+Predicting 3D structure for AC1_D for seed(s) (2276126308,)...
+Featurising data for seeds (2276126308,)...
+Featurising AC1_D with rng_seed 2276126308.
+Featurising AC1_D with rng_seed 2276126308 took 4.01 seconds.
+Featurising data for seeds (2276126308,) took  4.02 seconds.
+Running model inference for seed 2276126308...
+Running model inference for seed 2276126308 took  23.66 seconds.
+Extracting output structures (one per sample) for seed 2276126308...
+Extracting output structures (one per sample) for seed 2276126308 took  0.48 seconds.
+Running model inference and extracting output structures for seed 2276126308 took 24.14 seconds.
+Running model inference and extracting output structures for seeds (2276126308,) took 24.14 seconds.
+Writing outputs for AC1_D for seed(s) (2276126308,)...
+Done processing fold input AC1_D.
+Processing fold input #3
+Processing fold input AC1_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.07 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ac1_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ac1_ld
+Predicting 3D structure for AC1_LD for seed(s) (3397578931,)...
+Featurising data for seeds (3397578931,)...
+Featurising AC1_LD with rng_seed 3397578931.
+Featurising AC1_LD with rng_seed 3397578931 took 4.01 seconds.
+Featurising data for seeds (3397578931,) took  4.01 seconds.
+Running model inference for seed 3397578931...
+Running model inference for seed 3397578931 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 3397578931...
+Extracting output structures (one per sample) for seed 3397578931 took  0.68 seconds.
+Running model inference and extracting output structures for seed 3397578931 took 24.35 seconds.
+Running model inference and extracting output structures for seeds (3397578931,) took 24.35 seconds.
+Writing outputs for AC1_LD for seed(s) (3397578931,)...
+Done processing fold input AC1_LD.
+Processing fold input #4
+Processing fold input AC2_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1120.60 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ac2_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ac2_l
+Predicting 3D structure for AC2_L for seed(s) (1226199991,)...
+Featurising data for seeds (1226199991,)...
+Featurising AC2_L with rng_seed 1226199991.
+Featurising AC2_L with rng_seed 1226199991 took 3.83 seconds.
+Featurising data for seeds (1226199991,) took  3.83 seconds.
+Running model inference for seed 1226199991...
+Running model inference for seed 1226199991 took  23.63 seconds.
+Extracting output structures (one per sample) for seed 1226199991...
+Extracting output structures (one per sample) for seed 1226199991 took  0.49 seconds.
+Running model inference and extracting output structures for seed 1226199991 took 24.12 seconds.
+Running model inference and extracting output structures for seeds (1226199991,) took 24.12 seconds.
+Writing outputs for AC2_L for seed(s) (1226199991,)...
+Done processing fold input AC2_L.
+Processing fold input #5
+Processing fold input AC2_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.14 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ac2_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ac2_d
+Predicting 3D structure for AC2_D for seed(s) (3650056819,)...
+Featurising data for seeds (3650056819,)...
+Featurising AC2_D with rng_seed 3650056819.
+Featurising AC2_D with rng_seed 3650056819 took 3.82 seconds.
+Featurising data for seeds (3650056819,) took  3.82 seconds.
+Running model inference for seed 3650056819...
+Running model inference for seed 3650056819 took  23.65 seconds.
+Extracting output structures (one per sample) for seed 3650056819...
+Extracting output structures (one per sample) for seed 3650056819 took  0.45 seconds.
+Running model inference and extracting output structures for seed 3650056819 took 24.10 seconds.
+Running model inference and extracting output structures for seeds (3650056819,) took 24.10 seconds.
+Writing outputs for AC2_D for seed(s) (3650056819,)...
+Done processing fold input AC2_D.
+Processing fold input #6
+Processing fold input AC2_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.12 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ac2_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ac2_ld
+Predicting 3D structure for AC2_LD for seed(s) (1896921155,)...
+Featurising data for seeds (1896921155,)...
+Featurising AC2_LD with rng_seed 1896921155.
+Featurising AC2_LD with rng_seed 1896921155 took 3.77 seconds.
+Featurising data for seeds (1896921155,) took  3.77 seconds.
+Running model inference for seed 1896921155...
+Running model inference for seed 1896921155 took  23.66 seconds.
+Extracting output structures (one per sample) for seed 1896921155...
+Extracting output structures (one per sample) for seed 1896921155 took  0.48 seconds.
+Running model inference and extracting output structures for seed 1896921155 took 24.14 seconds.
+Running model inference and extracting output structures for seeds (1896921155,) took 24.14 seconds.
+Writing outputs for AC2_LD for seed(s) (1896921155,)...
+Done processing fold input AC2_LD.
+Processing fold input #7
+Processing fold input AC3_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1195.33 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ac3_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ac3_l
+Predicting 3D structure for AC3_L for seed(s) (2926623863,)...
+Featurising data for seeds (2926623863,)...
+Featurising AC3_L with rng_seed 2926623863.
+Featurising AC3_L with rng_seed 2926623863 took 3.91 seconds.
+Featurising data for seeds (2926623863,) took  3.91 seconds.
+Running model inference for seed 2926623863...
+Running model inference for seed 2926623863 took  23.63 seconds.
+Extracting output structures (one per sample) for seed 2926623863...
+Extracting output structures (one per sample) for seed 2926623863 took  0.44 seconds.
+Running model inference and extracting output structures for seed 2926623863 took 24.07 seconds.
+Running model inference and extracting output structures for seeds (2926623863,) took 24.07 seconds.
+Writing outputs for AC3_L for seed(s) (2926623863,)...
+Done processing fold input AC3_L.
+Processing fold input #8
+Processing fold input AC3_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.13 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ac3_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ac3_d
+Predicting 3D structure for AC3_D for seed(s) (467676581,)...
+Featurising data for seeds (467676581,)...
+Featurising AC3_D with rng_seed 467676581.
+Featurising AC3_D with rng_seed 467676581 took 3.84 seconds.
+Featurising data for seeds (467676581,) took  3.84 seconds.
+Running model inference for seed 467676581...
+Running model inference for seed 467676581 took  23.65 seconds.
+Extracting output structures (one per sample) for seed 467676581...
+Extracting output structures (one per sample) for seed 467676581 took  0.45 seconds.
+Running model inference and extracting output structures for seed 467676581 took 24.10 seconds.
+Running model inference and extracting output structures for seeds (467676581,) took 24.10 seconds.
+Writing outputs for AC3_D for seed(s) (467676581,)...
+Done processing fold input AC3_D.
+Processing fold input #9
+Processing fold input AC3_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.14 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ac3_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ac3_ld
+Predicting 3D structure for AC3_LD for seed(s) (682944626,)...
+Featurising data for seeds (682944626,)...
+Featurising AC3_LD with rng_seed 682944626.
+Featurising AC3_LD with rng_seed 682944626 took 3.81 seconds.
+Featurising data for seeds (682944626,) took  3.81 seconds.
+Running model inference for seed 682944626...
+Running model inference for seed 682944626 took  23.66 seconds.
+Extracting output structures (one per sample) for seed 682944626...
+Extracting output structures (one per sample) for seed 682944626 took  0.46 seconds.
+Running model inference and extracting output structures for seed 682944626 took 24.12 seconds.
+Running model inference and extracting output structures for seeds (682944626,) took 24.12 seconds.
+Writing outputs for AC3_LD for seed(s) (682944626,)...
+Done processing fold input AC3_LD.
+Processing fold input #10
+Processing fold input AH1_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1098.38 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ah1_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ah1_l
+Predicting 3D structure for AH1_L for seed(s) (2711559432,)...
+Featurising data for seeds (2711559432,)...
+Featurising AH1_L with rng_seed 2711559432.
+Featurising AH1_L with rng_seed 2711559432 took 6.03 seconds.
+Featurising data for seeds (2711559432,) took  6.03 seconds.
+Running model inference for seed 2711559432...
+Running model inference for seed 2711559432 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 2711559432...
+Extracting output structures (one per sample) for seed 2711559432 took  0.70 seconds.
+Running model inference and extracting output structures for seed 2711559432 took 24.36 seconds.
+Running model inference and extracting output structures for seeds (2711559432,) took 24.36 seconds.
+Writing outputs for AH1_L for seed(s) (2711559432,)...
+Done processing fold input AH1_L.
+Processing fold input #11
+Processing fold input AH1_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.16 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ah1_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ah1_d
+Predicting 3D structure for AH1_D for seed(s) (3916232227,)...
+Featurising data for seeds (3916232227,)...
+Featurising AH1_D with rng_seed 3916232227.
+Featurising AH1_D with rng_seed 3916232227 took 6.00 seconds.
+Featurising data for seeds (3916232227,) took  6.00 seconds.
+Running model inference for seed 3916232227...
+Running model inference for seed 3916232227 took  23.70 seconds.
+Extracting output structures (one per sample) for seed 3916232227...
+Extracting output structures (one per sample) for seed 3916232227 took  0.71 seconds.
+Running model inference and extracting output structures for seed 3916232227 took 24.40 seconds.
+Running model inference and extracting output structures for seeds (3916232227,) took 24.40 seconds.
+Writing outputs for AH1_D for seed(s) (3916232227,)...
+Done processing fold input AH1_D.
+Processing fold input #12
+Processing fold input AH1_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.16 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ah1_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ah1_ld
+Predicting 3D structure for AH1_LD for seed(s) (1353136621,)...
+Featurising data for seeds (1353136621,)...
+Featurising AH1_LD with rng_seed 1353136621.
+Featurising AH1_LD with rng_seed 1353136621 took 5.95 seconds.
+Featurising data for seeds (1353136621,) took  5.95 seconds.
+Running model inference for seed 1353136621...
+Running model inference for seed 1353136621 took  23.72 seconds.
+Extracting output structures (one per sample) for seed 1353136621...
+Extracting output structures (one per sample) for seed 1353136621 took  0.73 seconds.
+Running model inference and extracting output structures for seed 1353136621 took 24.45 seconds.
+Running model inference and extracting output structures for seeds (1353136621,) took 24.45 seconds.
+Writing outputs for AH1_LD for seed(s) (1353136621,)...
+Done processing fold input AH1_LD.
+Processing fold input #13
+Processing fold input AH2_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1078.80 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ah2_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ah2_l
+Predicting 3D structure for AH2_L for seed(s) (669343026,)...
+Featurising data for seeds (669343026,)...
+Featurising AH2_L with rng_seed 669343026.
+Featurising AH2_L with rng_seed 669343026 took 3.95 seconds.
+Featurising data for seeds (669343026,) took  3.95 seconds.
+Running model inference for seed 669343026...
+Running model inference for seed 669343026 took  23.63 seconds.
+Extracting output structures (one per sample) for seed 669343026...
+Extracting output structures (one per sample) for seed 669343026 took  0.46 seconds.
+Running model inference and extracting output structures for seed 669343026 took 24.09 seconds.
+Running model inference and extracting output structures for seeds (669343026,) took 24.09 seconds.
+Writing outputs for AH2_L for seed(s) (669343026,)...
+Done processing fold input AH2_L.
+Processing fold input #14
+Processing fold input AH2_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.11 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ah2_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ah2_d
+Predicting 3D structure for AH2_D for seed(s) (1601695932,)...
+Featurising data for seeds (1601695932,)...
+Featurising AH2_D with rng_seed 1601695932.
+Featurising AH2_D with rng_seed 1601695932 took 3.92 seconds.
+Featurising data for seeds (1601695932,) took  3.92 seconds.
+Running model inference for seed 1601695932...
+Running model inference for seed 1601695932 took  23.64 seconds.
+Extracting output structures (one per sample) for seed 1601695932...
+Extracting output structures (one per sample) for seed 1601695932 took  0.48 seconds.
+Running model inference and extracting output structures for seed 1601695932 took 24.13 seconds.
+Running model inference and extracting output structures for seeds (1601695932,) took 24.13 seconds.
+Writing outputs for AH2_D for seed(s) (1601695932,)...
+Done processing fold input AH2_D.
+Processing fold input #15
+Processing fold input AH2_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.34 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ah2_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ah2_ld
+Predicting 3D structure for AH2_LD for seed(s) (2459546351,)...
+Featurising data for seeds (2459546351,)...
+Featurising AH2_LD with rng_seed 2459546351.
+Featurising AH2_LD with rng_seed 2459546351 took 3.89 seconds.
+Featurising data for seeds (2459546351,) took  3.89 seconds.
+Running model inference for seed 2459546351...
+Running model inference for seed 2459546351 took  23.66 seconds.
+Extracting output structures (one per sample) for seed 2459546351...
+Extracting output structures (one per sample) for seed 2459546351 took  0.50 seconds.
+Running model inference and extracting output structures for seed 2459546351 took 24.16 seconds.
+Running model inference and extracting output structures for seeds (2459546351,) took 24.16 seconds.
+Writing outputs for AH2_LD for seed(s) (2459546351,)...
+Done processing fold input AH2_LD.
+Processing fold input #16
+Processing fold input AH3_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1245.48 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ah3_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ah3_l
+Predicting 3D structure for AH3_L for seed(s) (3108926549,)...
+Featurising data for seeds (3108926549,)...
+Featurising AH3_L with rng_seed 3108926549.
+Featurising AH3_L with rng_seed 3108926549 took 3.86 seconds.
+Featurising data for seeds (3108926549,) took  3.86 seconds.
+Running model inference for seed 3108926549...
+Running model inference for seed 3108926549 took  23.62 seconds.
+Extracting output structures (one per sample) for seed 3108926549...
+Extracting output structures (one per sample) for seed 3108926549 took  0.47 seconds.
+Running model inference and extracting output structures for seed 3108926549 took 24.10 seconds.
+Running model inference and extracting output structures for seeds (3108926549,) took 24.10 seconds.
+Writing outputs for AH3_L for seed(s) (3108926549,)...
+Done processing fold input AH3_L.
+Processing fold input #17
+Processing fold input AH3_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.12 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ah3_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ah3_d
+Predicting 3D structure for AH3_D for seed(s) (1493591422,)...
+Featurising data for seeds (1493591422,)...
+Featurising AH3_D with rng_seed 1493591422.
+Featurising AH3_D with rng_seed 1493591422 took 3.79 seconds.
+Featurising data for seeds (1493591422,) took  3.79 seconds.
+Running model inference for seed 1493591422...
+Running model inference for seed 1493591422 took  23.65 seconds.
+Extracting output structures (one per sample) for seed 1493591422...
+Extracting output structures (one per sample) for seed 1493591422 took  0.47 seconds.
+Running model inference and extracting output structures for seed 1493591422 took 24.13 seconds.
+Running model inference and extracting output structures for seeds (1493591422,) took 24.13 seconds.
+Writing outputs for AH3_D for seed(s) (1493591422,)...
+Done processing fold input AH3_D.
+Processing fold input #18
+Processing fold input AH3_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.13 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/ah3_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/ah3_ld
+Predicting 3D structure for AH3_LD for seed(s) (2299467912,)...
+Featurising data for seeds (2299467912,)...
+Featurising AH3_LD with rng_seed 2299467912.
+Featurising AH3_LD with rng_seed 2299467912 took 3.86 seconds.
+Featurising data for seeds (2299467912,) took  3.86 seconds.
+Running model inference for seed 2299467912...
+Running model inference for seed 2299467912 took  23.66 seconds.
+Extracting output structures (one per sample) for seed 2299467912...
+Extracting output structures (one per sample) for seed 2299467912 took  0.47 seconds.
+Running model inference and extracting output structures for seed 2299467912 took 24.13 seconds.
+Running model inference and extracting output structures for seeds (2299467912,) took 24.13 seconds.
+Writing outputs for AH3_LD for seed(s) (2299467912,)...
+Done processing fold input AH3_LD.
+Processing fold input #19
+Processing fold input CC1_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1087.68 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/cc1_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/cc1_l
+Predicting 3D structure for CC1_L for seed(s) (1473217207,)...
+Featurising data for seeds (1473217207,)...
+Featurising CC1_L with rng_seed 1473217207.
+Featurising CC1_L with rng_seed 1473217207 took 3.85 seconds.
+Featurising data for seeds (1473217207,) took  3.85 seconds.
+Running model inference for seed 1473217207...
+Running model inference for seed 1473217207 took  23.62 seconds.
+Extracting output structures (one per sample) for seed 1473217207...
+Extracting output structures (one per sample) for seed 1473217207 took  0.40 seconds.
+Running model inference and extracting output structures for seed 1473217207 took 24.02 seconds.
+Running model inference and extracting output structures for seeds (1473217207,) took 24.02 seconds.
+Writing outputs for CC1_L for seed(s) (1473217207,)...
+Done processing fold input CC1_L.
+Processing fold input #20
+Processing fold input CC1_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.11 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/cc1_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/cc1_d
+Predicting 3D structure for CC1_D for seed(s) (3353803564,)...
+Featurising data for seeds (3353803564,)...
+Featurising CC1_D with rng_seed 3353803564.
+Featurising CC1_D with rng_seed 3353803564 took 3.88 seconds.
+Featurising data for seeds (3353803564,) took  3.88 seconds.
+Running model inference for seed 3353803564...
+Running model inference for seed 3353803564 took  23.64 seconds.
+Extracting output structures (one per sample) for seed 3353803564...
+Extracting output structures (one per sample) for seed 3353803564 took  0.47 seconds.
+Running model inference and extracting output structures for seed 3353803564 took 24.11 seconds.
+Running model inference and extracting output structures for seeds (3353803564,) took 24.11 seconds.
+Writing outputs for CC1_D for seed(s) (3353803564,)...
+Done processing fold input CC1_D.
+Processing fold input #21
+Processing fold input CC1_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.12 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/cc1_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/cc1_ld
+Predicting 3D structure for CC1_LD for seed(s) (3183853584,)...
+Featurising data for seeds (3183853584,)...
+Featurising CC1_LD with rng_seed 3183853584.
+Featurising CC1_LD with rng_seed 3183853584 took 3.82 seconds.
+Featurising data for seeds (3183853584,) took  3.82 seconds.
+Running model inference for seed 3183853584...
+Running model inference for seed 3183853584 took  23.66 seconds.
+Extracting output structures (one per sample) for seed 3183853584...
+Extracting output structures (one per sample) for seed 3183853584 took  0.43 seconds.
+Running model inference and extracting output structures for seed 3183853584 took 24.09 seconds.
+Running model inference and extracting output structures for seeds (3183853584,) took 24.09 seconds.
+Writing outputs for CC1_LD for seed(s) (3183853584,)...
+Done processing fold input CC1_LD.
+Processing fold input #22
+Processing fold input CC2_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1044.08 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/cc2_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/cc2_l
+Predicting 3D structure for CC2_L for seed(s) (1503693467,)...
+Featurising data for seeds (1503693467,)...
+Featurising CC2_L with rng_seed 1503693467.
+Featurising CC2_L with rng_seed 1503693467 took 4.02 seconds.
+Featurising data for seeds (1503693467,) took  4.02 seconds.
+Running model inference for seed 1503693467...
+Running model inference for seed 1503693467 took  23.62 seconds.
+Extracting output structures (one per sample) for seed 1503693467...
+Extracting output structures (one per sample) for seed 1503693467 took  0.48 seconds.
+Running model inference and extracting output structures for seed 1503693467 took 24.10 seconds.
+Running model inference and extracting output structures for seeds (1503693467,) took 24.10 seconds.
+Writing outputs for CC2_L for seed(s) (1503693467,)...
+Done processing fold input CC2_L.
+Processing fold input #23
+Processing fold input CC2_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.07 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/cc2_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/cc2_d
+Predicting 3D structure for CC2_D for seed(s) (765866531,)...
+Featurising data for seeds (765866531,)...
+Featurising CC2_D with rng_seed 765866531.
+Featurising CC2_D with rng_seed 765866531 took 3.93 seconds.
+Featurising data for seeds (765866531,) took  3.93 seconds.
+Running model inference for seed 765866531...
+Running model inference for seed 765866531 took  23.65 seconds.
+Extracting output structures (one per sample) for seed 765866531...
+Extracting output structures (one per sample) for seed 765866531 took  0.49 seconds.
+Running model inference and extracting output structures for seed 765866531 took 24.14 seconds.
+Running model inference and extracting output structures for seeds (765866531,) took 24.14 seconds.
+Writing outputs for CC2_D for seed(s) (765866531,)...
+Done processing fold input CC2_D.
+Processing fold input #24
+Processing fold input CC2_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.07 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/cc2_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/cc2_ld
+Predicting 3D structure for CC2_LD for seed(s) (69667902,)...
+Featurising data for seeds (69667902,)...
+Featurising CC2_LD with rng_seed 69667902.
+Featurising CC2_LD with rng_seed 69667902 took 4.02 seconds.
+Featurising data for seeds (69667902,) took  4.02 seconds.
+Running model inference for seed 69667902...
+Running model inference for seed 69667902 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 69667902...
+Extracting output structures (one per sample) for seed 69667902 took  0.51 seconds.
+Running model inference and extracting output structures for seed 69667902 took 24.18 seconds.
+Running model inference and extracting output structures for seeds (69667902,) took 24.18 seconds.
+Writing outputs for CC2_LD for seed(s) (69667902,)...
+Done processing fold input CC2_LD.
+Processing fold input #25
+Processing fold input CC3_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 999.38 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/cc3_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/cc3_l
+Predicting 3D structure for CC3_L for seed(s) (2831192005,)...
+Featurising data for seeds (2831192005,)...
+Featurising CC3_L with rng_seed 2831192005.
+Featurising CC3_L with rng_seed 2831192005 took 3.82 seconds.
+Featurising data for seeds (2831192005,) took  3.82 seconds.
+Running model inference for seed 2831192005...
+Running model inference for seed 2831192005 took  23.62 seconds.
+Extracting output structures (one per sample) for seed 2831192005...
+Extracting output structures (one per sample) for seed 2831192005 took  0.46 seconds.
+Running model inference and extracting output structures for seed 2831192005 took 24.08 seconds.
+Running model inference and extracting output structures for seeds (2831192005,) took 24.08 seconds.
+Writing outputs for CC3_L for seed(s) (2831192005,)...
+Done processing fold input CC3_L.
+Processing fold input #26
+Processing fold input CC3_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.12 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/cc3_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/cc3_d
+Predicting 3D structure for CC3_D for seed(s) (2109386827,)...
+Featurising data for seeds (2109386827,)...
+Featurising CC3_D with rng_seed 2109386827.
+Featurising CC3_D with rng_seed 2109386827 took 3.82 seconds.
+Featurising data for seeds (2109386827,) took  3.82 seconds.
+Running model inference for seed 2109386827...
+Running model inference for seed 2109386827 took  23.64 seconds.
+Extracting output structures (one per sample) for seed 2109386827...
+Extracting output structures (one per sample) for seed 2109386827 took  0.45 seconds.
+Running model inference and extracting output structures for seed 2109386827 took 24.09 seconds.
+Running model inference and extracting output structures for seeds (2109386827,) took 24.09 seconds.
+Writing outputs for CC3_D for seed(s) (2109386827,)...
+Done processing fold input CC3_D.
+Processing fold input #27
+Processing fold input CC3_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.12 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/cc3_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/cc3_ld
+Predicting 3D structure for CC3_LD for seed(s) (1063149196,)...
+Featurising data for seeds (1063149196,)...
+Featurising CC3_LD with rng_seed 1063149196.
+Featurising CC3_LD with rng_seed 1063149196 took 3.83 seconds.
+Featurising data for seeds (1063149196,) took  3.83 seconds.
+Running model inference for seed 1063149196...
+Running model inference for seed 1063149196 took  23.66 seconds.
+Extracting output structures (one per sample) for seed 1063149196...
+Extracting output structures (one per sample) for seed 1063149196 took  0.47 seconds.
+Running model inference and extracting output structures for seed 1063149196 took 24.13 seconds.
+Running model inference and extracting output structures for seeds (1063149196,) took 24.13 seconds.
+Writing outputs for CC3_LD for seed(s) (1063149196,)...
+Done processing fold input CC3_LD.
+Processing fold input #28
+Processing fold input EH1_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1008.79 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh1_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh1_l
+Predicting 3D structure for EH1_L for seed(s) (1356385584,)...
+Featurising data for seeds (1356385584,)...
+Featurising EH1_L with rng_seed 1356385584.
+Featurising EH1_L with rng_seed 1356385584 took 4.08 seconds.
+Featurising data for seeds (1356385584,) took  4.08 seconds.
+Running model inference for seed 1356385584...
+Running model inference for seed 1356385584 took  23.62 seconds.
+Extracting output structures (one per sample) for seed 1356385584...
+Extracting output structures (one per sample) for seed 1356385584 took  0.76 seconds.
+Running model inference and extracting output structures for seed 1356385584 took 24.37 seconds.
+Running model inference and extracting output structures for seeds (1356385584,) took 24.37 seconds.
+Writing outputs for EH1_L for seed(s) (1356385584,)...
+Done processing fold input EH1_L.
+Processing fold input #29
+Processing fold input EH1_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.07 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh1_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh1_d
+Predicting 3D structure for EH1_D for seed(s) (562840689,)...
+Featurising data for seeds (562840689,)...
+Featurising EH1_D with rng_seed 562840689.
+Featurising EH1_D with rng_seed 562840689 took 4.05 seconds.
+Featurising data for seeds (562840689,) took  4.05 seconds.
+Running model inference for seed 562840689...
+Running model inference for seed 562840689 took  23.66 seconds.
+Extracting output structures (one per sample) for seed 562840689...
+Extracting output structures (one per sample) for seed 562840689 took  0.48 seconds.
+Running model inference and extracting output structures for seed 562840689 took 24.14 seconds.
+Running model inference and extracting output structures for seeds (562840689,) took 24.14 seconds.
+Writing outputs for EH1_D for seed(s) (562840689,)...
+Done processing fold input EH1_D.
+Processing fold input #30
+Processing fold input EH1_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.08 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh1_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh1_ld
+Predicting 3D structure for EH1_LD for seed(s) (214526255,)...
+Featurising data for seeds (214526255,)...
+Featurising EH1_LD with rng_seed 214526255.
+Featurising EH1_LD with rng_seed 214526255 took 4.08 seconds.
+Featurising data for seeds (214526255,) took  4.08 seconds.
+Running model inference for seed 214526255...
+Running model inference for seed 214526255 took  23.68 seconds.
+Extracting output structures (one per sample) for seed 214526255...
+Extracting output structures (one per sample) for seed 214526255 took  0.53 seconds.
+Running model inference and extracting output structures for seed 214526255 took 24.20 seconds.
+Running model inference and extracting output structures for seeds (214526255,) took 24.20 seconds.
+Writing outputs for EH1_LD for seed(s) (214526255,)...
+Done processing fold input EH1_LD.
+Processing fold input #31
+Processing fold input EH2_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1006.26 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh2_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh2_l
+Predicting 3D structure for EH2_L for seed(s) (3749721084,)...
+Featurising data for seeds (3749721084,)...
+Featurising EH2_L with rng_seed 3749721084.
+Featurising EH2_L with rng_seed 3749721084 took 3.89 seconds.
+Featurising data for seeds (3749721084,) took  3.89 seconds.
+Running model inference for seed 3749721084...
+Running model inference for seed 3749721084 took  23.64 seconds.
+Extracting output structures (one per sample) for seed 3749721084...
+Extracting output structures (one per sample) for seed 3749721084 took  0.41 seconds.
+Running model inference and extracting output structures for seed 3749721084 took 24.05 seconds.
+Running model inference and extracting output structures for seeds (3749721084,) took 24.05 seconds.
+Writing outputs for EH2_L for seed(s) (3749721084,)...
+Done processing fold input EH2_L.
+Processing fold input #32
+Processing fold input EH2_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.12 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh2_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh2_d
+Predicting 3D structure for EH2_D for seed(s) (1284294990,)...
+Featurising data for seeds (1284294990,)...
+Featurising EH2_D with rng_seed 1284294990.
+Featurising EH2_D with rng_seed 1284294990 took 3.82 seconds.
+Featurising data for seeds (1284294990,) took  3.82 seconds.
+Running model inference for seed 1284294990...
+Running model inference for seed 1284294990 took  23.65 seconds.
+Extracting output structures (one per sample) for seed 1284294990...
+Extracting output structures (one per sample) for seed 1284294990 took  0.50 seconds.
+Running model inference and extracting output structures for seed 1284294990 took 24.15 seconds.
+Running model inference and extracting output structures for seeds (1284294990,) took 24.15 seconds.
+Writing outputs for EH2_D for seed(s) (1284294990,)...
+Done processing fold input EH2_D.
+Processing fold input #33
+Processing fold input EH2_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.12 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh2_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh2_ld
+Predicting 3D structure for EH2_LD for seed(s) (3432718975,)...
+Featurising data for seeds (3432718975,)...
+Featurising EH2_LD with rng_seed 3432718975.
+Featurising EH2_LD with rng_seed 3432718975 took 3.89 seconds.
+Featurising data for seeds (3432718975,) took  3.89 seconds.
+Running model inference for seed 3432718975...
+Running model inference for seed 3432718975 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 3432718975...
+Extracting output structures (one per sample) for seed 3432718975 took  0.47 seconds.
+Running model inference and extracting output structures for seed 3432718975 took 24.14 seconds.
+Running model inference and extracting output structures for seeds (3432718975,) took 24.14 seconds.
+Writing outputs for EH2_LD for seed(s) (3432718975,)...
+Done processing fold input EH2_LD.
+Processing fold input #34
+Processing fold input EH3_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1042.09 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh3_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh3_l
+Predicting 3D structure for EH3_L for seed(s) (1554096617,)...
+Featurising data for seeds (1554096617,)...
+Featurising EH3_L with rng_seed 1554096617.
+Featurising EH3_L with rng_seed 1554096617 took 3.65 seconds.
+Featurising data for seeds (1554096617,) took  3.65 seconds.
+Running model inference for seed 1554096617...
+Running model inference for seed 1554096617 took  23.63 seconds.
+Extracting output structures (one per sample) for seed 1554096617...
+Extracting output structures (one per sample) for seed 1554096617 took  0.46 seconds.
+Running model inference and extracting output structures for seed 1554096617 took 24.08 seconds.
+Running model inference and extracting output structures for seeds (1554096617,) took 24.08 seconds.
+Writing outputs for EH3_L for seed(s) (1554096617,)...
+Done processing fold input EH3_L.
+Processing fold input #35
+Processing fold input EH3_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.11 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh3_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh3_d
+Predicting 3D structure for EH3_D for seed(s) (1537216727,)...
+Featurising data for seeds (1537216727,)...
+Featurising EH3_D with rng_seed 1537216727.
+Featurising EH3_D with rng_seed 1537216727 took 3.68 seconds.
+Featurising data for seeds (1537216727,) took  3.68 seconds.
+Running model inference for seed 1537216727...
+Running model inference for seed 1537216727 took  23.65 seconds.
+Extracting output structures (one per sample) for seed 1537216727...
+Extracting output structures (one per sample) for seed 1537216727 took  0.43 seconds.
+Running model inference and extracting output structures for seed 1537216727 took 24.08 seconds.
+Running model inference and extracting output structures for seeds (1537216727,) took 24.08 seconds.
+Writing outputs for EH3_D for seed(s) (1537216727,)...
+Done processing fold input EH3_D.
+Processing fold input #36
+Processing fold input EH3_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.10 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh3_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh3_ld
+Predicting 3D structure for EH3_LD for seed(s) (2507037431,)...
+Featurising data for seeds (2507037431,)...
+Featurising EH3_LD with rng_seed 2507037431.
+Featurising EH3_LD with rng_seed 2507037431 took 3.63 seconds.
+Featurising data for seeds (2507037431,) took  3.63 seconds.
+Running model inference for seed 2507037431...
+Running model inference for seed 2507037431 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 2507037431...
+Extracting output structures (one per sample) for seed 2507037431 took  0.47 seconds.
+Running model inference and extracting output structures for seed 2507037431 took 24.14 seconds.
+Running model inference and extracting output structures for seeds (2507037431,) took 24.14 seconds.
+Writing outputs for EH3_LD for seed(s) (2507037431,)...
+Done processing fold input EH3_LD.
+Processing fold input #37
+Processing fold input EH4_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 997.89 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh4_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh4_l
+Predicting 3D structure for EH4_L for seed(s) (3640494428,)...
+Featurising data for seeds (3640494428,)...
+Featurising EH4_L with rng_seed 3640494428.
+Featurising EH4_L with rng_seed 3640494428 took 3.94 seconds.
+Featurising data for seeds (3640494428,) took  3.94 seconds.
+Running model inference for seed 3640494428...
+Running model inference for seed 3640494428 took  23.63 seconds.
+Extracting output structures (one per sample) for seed 3640494428...
+Extracting output structures (one per sample) for seed 3640494428 took  0.48 seconds.
+Running model inference and extracting output structures for seed 3640494428 took 24.11 seconds.
+Running model inference and extracting output structures for seeds (3640494428,) took 24.11 seconds.
+Writing outputs for EH4_L for seed(s) (3640494428,)...
+Done processing fold input EH4_L.
+Processing fold input #38
+Processing fold input EH4_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.12 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh4_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh4_d
+Predicting 3D structure for EH4_D for seed(s) (2136991627,)...
+Featurising data for seeds (2136991627,)...
+Featurising EH4_D with rng_seed 2136991627.
+Featurising EH4_D with rng_seed 2136991627 took 3.89 seconds.
+Featurising data for seeds (2136991627,) took  3.89 seconds.
+Running model inference for seed 2136991627...
+Running model inference for seed 2136991627 took  23.65 seconds.
+Extracting output structures (one per sample) for seed 2136991627...
+Extracting output structures (one per sample) for seed 2136991627 took  0.44 seconds.
+Running model inference and extracting output structures for seed 2136991627 took 24.09 seconds.
+Running model inference and extracting output structures for seeds (2136991627,) took 24.09 seconds.
+Writing outputs for EH4_D for seed(s) (2136991627,)...
+Done processing fold input EH4_D.
+Processing fold input #39
+Processing fold input EH4_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.12 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/eh4_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/eh4_ld
+Predicting 3D structure for EH4_LD for seed(s) (4097241417,)...
+Featurising data for seeds (4097241417,)...
+Featurising EH4_LD with rng_seed 4097241417.
+Featurising EH4_LD with rng_seed 4097241417 took 3.89 seconds.
+Featurising data for seeds (4097241417,) took  3.89 seconds.
+Running model inference for seed 4097241417...
+Running model inference for seed 4097241417 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 4097241417...
+Extracting output structures (one per sample) for seed 4097241417 took  0.47 seconds.
+Running model inference and extracting output structures for seed 4097241417 took 24.15 seconds.
+Running model inference and extracting output structures for seeds (4097241417,) took 24.15 seconds.
+Writing outputs for EH4_LD for seed(s) (4097241417,)...
+Done processing fold input EH4_LD.
+Processing fold input #40
+Processing fold input VA1_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 995.63 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va1_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va1_l
+Predicting 3D structure for VA1_L for seed(s) (4276293380,)...
+Featurising data for seeds (4276293380,)...
+Featurising VA1_L with rng_seed 4276293380.
+Featurising VA1_L with rng_seed 4276293380 took 4.63 seconds.
+Featurising data for seeds (4276293380,) took  4.63 seconds.
+Running model inference for seed 4276293380...
+Running model inference for seed 4276293380 took  23.68 seconds.
+Extracting output structures (one per sample) for seed 4276293380...
+Extracting output structures (one per sample) for seed 4276293380 took  0.50 seconds.
+Running model inference and extracting output structures for seed 4276293380 took 24.19 seconds.
+Running model inference and extracting output structures for seeds (4276293380,) took 24.19 seconds.
+Writing outputs for VA1_L for seed(s) (4276293380,)...
+Done processing fold input VA1_L.
+Processing fold input #41
+Processing fold input VA1_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.11 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va1_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va1_d
+Predicting 3D structure for VA1_D for seed(s) (2048742417,)...
+Featurising data for seeds (2048742417,)...
+Featurising VA1_D with rng_seed 2048742417.
+Featurising VA1_D with rng_seed 2048742417 took 4.54 seconds.
+Featurising data for seeds (2048742417,) took  4.54 seconds.
+Running model inference for seed 2048742417...
+Running model inference for seed 2048742417 took  23.69 seconds.
+Extracting output structures (one per sample) for seed 2048742417...
+Extracting output structures (one per sample) for seed 2048742417 took  0.87 seconds.
+Running model inference and extracting output structures for seed 2048742417 took 24.56 seconds.
+Running model inference and extracting output structures for seeds (2048742417,) took 24.56 seconds.
+Writing outputs for VA1_D for seed(s) (2048742417,)...
+Done processing fold input VA1_D.
+Processing fold input #42
+Processing fold input VA1_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.11 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va1_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va1_ld
+Predicting 3D structure for VA1_LD for seed(s) (1348546890,)...
+Featurising data for seeds (1348546890,)...
+Featurising VA1_LD with rng_seed 1348546890.
+Featurising VA1_LD with rng_seed 1348546890 took 4.53 seconds.
+Featurising data for seeds (1348546890,) took  4.53 seconds.
+Running model inference for seed 1348546890...
+Running model inference for seed 1348546890 took  23.72 seconds.
+Extracting output structures (one per sample) for seed 1348546890...
+Extracting output structures (one per sample) for seed 1348546890 took  0.48 seconds.
+Running model inference and extracting output structures for seed 1348546890 took 24.20 seconds.
+Running model inference and extracting output structures for seeds (1348546890,) took 24.20 seconds.
+Writing outputs for VA1_LD for seed(s) (1348546890,)...
+Done processing fold input VA1_LD.
+Processing fold input #43
+Processing fold input VA2_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1034.66 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va2_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va2_l
+Predicting 3D structure for VA2_L for seed(s) (611246356,)...
+Featurising data for seeds (611246356,)...
+Featurising VA2_L with rng_seed 611246356.
+Featurising VA2_L with rng_seed 611246356 took 5.55 seconds.
+Featurising data for seeds (611246356,) took  5.55 seconds.
+Running model inference for seed 611246356...
+Running model inference for seed 611246356 took  23.70 seconds.
+Extracting output structures (one per sample) for seed 611246356...
+Extracting output structures (one per sample) for seed 611246356 took  0.66 seconds.
+Running model inference and extracting output structures for seed 611246356 took 24.36 seconds.
+Running model inference and extracting output structures for seeds (611246356,) took 24.36 seconds.
+Writing outputs for VA2_L for seed(s) (611246356,)...
+Done processing fold input VA2_L.
+Processing fold input #44
+Processing fold input VA2_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.17 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va2_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va2_d
+Predicting 3D structure for VA2_D for seed(s) (3606038912,)...
+Featurising data for seeds (3606038912,)...
+Featurising VA2_D with rng_seed 3606038912.
+Featurising VA2_D with rng_seed 3606038912 took 5.55 seconds.
+Featurising data for seeds (3606038912,) took  5.55 seconds.
+Running model inference for seed 3606038912...
+Running model inference for seed 3606038912 took  23.74 seconds.
+Extracting output structures (one per sample) for seed 3606038912...
+Extracting output structures (one per sample) for seed 3606038912 took  0.70 seconds.
+Running model inference and extracting output structures for seed 3606038912 took 24.44 seconds.
+Running model inference and extracting output structures for seeds (3606038912,) took 24.44 seconds.
+Writing outputs for VA2_D for seed(s) (3606038912,)...
+Done processing fold input VA2_D.
+Processing fold input #45
+Processing fold input VA2_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.18 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va2_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va2_ld
+Predicting 3D structure for VA2_LD for seed(s) (4071345876,)...
+Featurising data for seeds (4071345876,)...
+Featurising VA2_LD with rng_seed 4071345876.
+Featurising VA2_LD with rng_seed 4071345876 took 7.41 seconds.
+Featurising data for seeds (4071345876,) took  7.41 seconds.
+Running model inference for seed 4071345876...
+Running model inference for seed 4071345876 took  23.75 seconds.
+Extracting output structures (one per sample) for seed 4071345876...
+Extracting output structures (one per sample) for seed 4071345876 took  0.71 seconds.
+Running model inference and extracting output structures for seed 4071345876 took 24.47 seconds.
+Running model inference and extracting output structures for seeds (4071345876,) took 24.47 seconds.
+Writing outputs for VA2_LD for seed(s) (4071345876,)...
+Done processing fold input VA2_LD.
+Processing fold input #46
+Processing fold input VA3_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1229.58 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va3_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va3_l
+Predicting 3D structure for VA3_L for seed(s) (1374988164,)...
+Featurising data for seeds (1374988164,)...
+Featurising VA3_L with rng_seed 1374988164.
+Featurising VA3_L with rng_seed 1374988164 took 11.90 seconds.
+Featurising data for seeds (1374988164,) took  11.90 seconds.
+Running model inference for seed 1374988164...
+Running model inference for seed 1374988164 took  181.63 seconds.
+Extracting output structures (one per sample) for seed 1374988164...
+Extracting output structures (one per sample) for seed 1374988164 took  1.54 seconds.
+Running model inference and extracting output structures for seed 1374988164 took 183.17 seconds.
+Running model inference and extracting output structures for seeds (1374988164,) took 183.17 seconds.
+Writing outputs for VA3_L for seed(s) (1374988164,)...
+Done processing fold input VA3_L.
+Processing fold input #47
+Processing fold input VA3_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.15 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va3_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va3_d
+Predicting 3D structure for VA3_D for seed(s) (3217134990,)...
+Featurising data for seeds (3217134990,)...
+Featurising VA3_D with rng_seed 3217134990.
+Featurising VA3_D with rng_seed 3217134990 took 11.91 seconds.
+Featurising data for seeds (3217134990,) took  11.91 seconds.
+Running model inference for seed 3217134990...
+Running model inference for seed 3217134990 took  117.77 seconds.
+Extracting output structures (one per sample) for seed 3217134990...
+Extracting output structures (one per sample) for seed 3217134990 took  1.45 seconds.
+Running model inference and extracting output structures for seed 3217134990 took 119.22 seconds.
+Running model inference and extracting output structures for seeds (3217134990,) took 119.22 seconds.
+Writing outputs for VA3_D for seed(s) (3217134990,)...
+Done processing fold input VA3_D.
+Processing fold input #48
+Processing fold input VA3_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.16 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va3_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va3_ld
+Predicting 3D structure for VA3_LD for seed(s) (3141614740,)...
+Featurising data for seeds (3141614740,)...
+Featurising VA3_LD with rng_seed 3141614740.
+Featurising VA3_LD with rng_seed 3141614740 took 11.85 seconds.
+Featurising data for seeds (3141614740,) took  11.85 seconds.
+Running model inference for seed 3141614740...
+Running model inference for seed 3141614740 took  117.76 seconds.
+Extracting output structures (one per sample) for seed 3141614740...
+Extracting output structures (one per sample) for seed 3141614740 took  1.57 seconds.
+Running model inference and extracting output structures for seed 3141614740 took 119.33 seconds.
+Running model inference and extracting output structures for seeds (3141614740,) took 119.33 seconds.
+Writing outputs for VA3_LD for seed(s) (3141614740,)...
+Done processing fold input VA3_LD.
+Processing fold input #49
+Processing fold input VA4_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1015.55 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va4_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va4_l
+Predicting 3D structure for VA4_L for seed(s) (1410805533,)...
+Featurising data for seeds (1410805533,)...
+Featurising VA4_L with rng_seed 1410805533.
+Featurising VA4_L with rng_seed 1410805533 took 3.80 seconds.
+Featurising data for seeds (1410805533,) took  3.80 seconds.
+Running model inference for seed 1410805533...
+Running model inference for seed 1410805533 took  23.63 seconds.
+Extracting output structures (one per sample) for seed 1410805533...
+Extracting output structures (one per sample) for seed 1410805533 took  0.46 seconds.
+Running model inference and extracting output structures for seed 1410805533 took 24.10 seconds.
+Running model inference and extracting output structures for seeds (1410805533,) took 24.10 seconds.
+Writing outputs for VA4_L for seed(s) (1410805533,)...
+Done processing fold input VA4_L.
+Processing fold input #50
+Processing fold input VA4_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.10 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va4_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va4_d
+Predicting 3D structure for VA4_D for seed(s) (4040800460,)...
+Featurising data for seeds (4040800460,)...
+Featurising VA4_D with rng_seed 4040800460.
+Featurising VA4_D with rng_seed 4040800460 took 3.79 seconds.
+Featurising data for seeds (4040800460,) took  3.79 seconds.
+Running model inference for seed 4040800460...
+Running model inference for seed 4040800460 took  23.64 seconds.
+Extracting output structures (one per sample) for seed 4040800460...
+Extracting output structures (one per sample) for seed 4040800460 took  0.87 seconds.
+Running model inference and extracting output structures for seed 4040800460 took 24.52 seconds.
+Running model inference and extracting output structures for seeds (4040800460,) took 24.52 seconds.
+Writing outputs for VA4_D for seed(s) (4040800460,)...
+Done processing fold input VA4_D.
+Processing fold input #51
+Processing fold input VA4_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.10 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/va4_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/va4_ld
+Predicting 3D structure for VA4_LD for seed(s) (3411398859,)...
+Featurising data for seeds (3411398859,)...
+Featurising VA4_LD with rng_seed 3411398859.
+Featurising VA4_LD with rng_seed 3411398859 took 3.78 seconds.
+Featurising data for seeds (3411398859,) took  3.78 seconds.
+Running model inference for seed 3411398859...
+Running model inference for seed 3411398859 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 3411398859...
+Extracting output structures (one per sample) for seed 3411398859 took  0.44 seconds.
+Running model inference and extracting output structures for seed 3411398859 took 24.10 seconds.
+Running model inference and extracting output structures for seeds (3411398859,) took 24.10 seconds.
+Writing outputs for VA4_LD for seed(s) (3411398859,)...
+Done processing fold input VA4_LD.
+Processing fold input #52
+Processing fold input D_oxidase_ctrl_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1108.33 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/d_oxidase_ctrl_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/d_oxidase_ctrl_l
+Predicting 3D structure for D_oxidase_ctrl_L for seed(s) (2290054846,)...
+Featurising data for seeds (2290054846,)...
+Featurising D_oxidase_ctrl_L with rng_seed 2290054846.
+Featurising D_oxidase_ctrl_L with rng_seed 2290054846 took 6.21 seconds.
+Featurising data for seeds (2290054846,) took  6.21 seconds.
+Running model inference for seed 2290054846...
+Running model inference for seed 2290054846 took  23.71 seconds.
+Extracting output structures (one per sample) for seed 2290054846...
+Extracting output structures (one per sample) for seed 2290054846 took  0.69 seconds.
+Running model inference and extracting output structures for seed 2290054846 took 24.40 seconds.
+Running model inference and extracting output structures for seeds (2290054846,) took 24.40 seconds.
+Writing outputs for D_oxidase_ctrl_L for seed(s) (2290054846,)...
+Done processing fold input D_oxidase_ctrl_L.
+Processing fold input #53
+Processing fold input D_oxidase_ctrl_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.11 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/d_oxidase_ctrl_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/d_oxidase_ctrl_d
+Predicting 3D structure for D_oxidase_ctrl_D for seed(s) (1336028941,)...
+Featurising data for seeds (1336028941,)...
+Featurising D_oxidase_ctrl_D with rng_seed 1336028941.
+Featurising D_oxidase_ctrl_D with rng_seed 1336028941 took 3.94 seconds.
+Featurising data for seeds (1336028941,) took  3.94 seconds.
+Running model inference for seed 1336028941...
+Running model inference for seed 1336028941 took  23.66 seconds.
+Extracting output structures (one per sample) for seed 1336028941...
+Extracting output structures (one per sample) for seed 1336028941 took  0.46 seconds.
+Running model inference and extracting output structures for seed 1336028941 took 24.12 seconds.
+Running model inference and extracting output structures for seeds (1336028941,) took 24.12 seconds.
+Writing outputs for D_oxidase_ctrl_D for seed(s) (1336028941,)...
+Done processing fold input D_oxidase_ctrl_D.
+Processing fold input #54
+Processing fold input D_oxidase_ctrl_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.10 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/d_oxidase_ctrl_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/d_oxidase_ctrl_ld
+Predicting 3D structure for D_oxidase_ctrl_LD for seed(s) (1584263667,)...
+Featurising data for seeds (1584263667,)...
+Featurising D_oxidase_ctrl_LD with rng_seed 1584263667.
+Featurising D_oxidase_ctrl_LD with rng_seed 1584263667 took 3.77 seconds.
+Featurising data for seeds (1584263667,) took  3.77 seconds.
+Running model inference for seed 1584263667...
+Running model inference for seed 1584263667 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 1584263667...
+Extracting output structures (one per sample) for seed 1584263667 took  0.51 seconds.
+Running model inference and extracting output structures for seed 1584263667 took 24.18 seconds.
+Running model inference and extracting output structures for seeds (1584263667,) took 24.18 seconds.
+Writing outputs for D_oxidase_ctrl_LD for seed(s) (1584263667,)...
+Done processing fold input D_oxidase_ctrl_LD.
+Processing fold input #55
+Processing fold input L_oxidase_ctrl_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1155.37 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/l_oxidase_ctrl_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/l_oxidase_ctrl_l
+Predicting 3D structure for L_oxidase_ctrl_L for seed(s) (2663381714,)...
+Featurising data for seeds (2663381714,)...
+Featurising L_oxidase_ctrl_L with rng_seed 2663381714.
+Featurising L_oxidase_ctrl_L with rng_seed 2663381714 took 4.88 seconds.
+Featurising data for seeds (2663381714,) took  4.88 seconds.
+Running model inference for seed 2663381714...
+Running model inference for seed 2663381714 took  23.64 seconds.
+Extracting output structures (one per sample) for seed 2663381714...
+Extracting output structures (one per sample) for seed 2663381714 took  0.51 seconds.
+Running model inference and extracting output structures for seed 2663381714 took 24.15 seconds.
+Running model inference and extracting output structures for seeds (2663381714,) took 24.15 seconds.
+Writing outputs for L_oxidase_ctrl_L for seed(s) (2663381714,)...
+Done processing fold input L_oxidase_ctrl_L.
+Processing fold input #56
+Processing fold input L_oxidase_ctrl_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.10 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/l_oxidase_ctrl_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/l_oxidase_ctrl_d
+Predicting 3D structure for L_oxidase_ctrl_D for seed(s) (3054865233,)...
+Featurising data for seeds (3054865233,)...
+Featurising L_oxidase_ctrl_D with rng_seed 3054865233.
+Featurising L_oxidase_ctrl_D with rng_seed 3054865233 took 4.70 seconds.
+Featurising data for seeds (3054865233,) took  4.70 seconds.
+Running model inference for seed 3054865233...
+Running model inference for seed 3054865233 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 3054865233...
+Extracting output structures (one per sample) for seed 3054865233 took  0.56 seconds.
+Running model inference and extracting output structures for seed 3054865233 took 24.23 seconds.
+Running model inference and extracting output structures for seeds (3054865233,) took 24.23 seconds.
+Writing outputs for L_oxidase_ctrl_D for seed(s) (3054865233,)...
+Done processing fold input L_oxidase_ctrl_D.
+Processing fold input #57
+Processing fold input L_oxidase_ctrl_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.09 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/l_oxidase_ctrl_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/l_oxidase_ctrl_ld
+Predicting 3D structure for L_oxidase_ctrl_LD for seed(s) (1259688455,)...
+Featurising data for seeds (1259688455,)...
+Featurising L_oxidase_ctrl_LD with rng_seed 1259688455.
+Featurising L_oxidase_ctrl_LD with rng_seed 1259688455 took 4.77 seconds.
+Featurising data for seeds (1259688455,) took  4.77 seconds.
+Running model inference for seed 1259688455...
+Running model inference for seed 1259688455 took  23.68 seconds.
+Extracting output structures (one per sample) for seed 1259688455...
+Extracting output structures (one per sample) for seed 1259688455 took  0.57 seconds.
+Running model inference and extracting output structures for seed 1259688455 took 24.25 seconds.
+Running model inference and extracting output structures for seeds (1259688455,) took 24.25 seconds.
+Writing outputs for L_oxidase_ctrl_LD for seed(s) (1259688455,)...
+Done processing fold input L_oxidase_ctrl_LD.
+Processing fold input #58
+Processing fold input L_dehydrogenase_ctrl_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1113.44 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/l_dehydrogenase_ctrl_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/l_dehydrogenase_ctrl_l
+Predicting 3D structure for L_dehydrogenase_ctrl_L for seed(s) (3859055486,)...
+Featurising data for seeds (3859055486,)...
+Featurising L_dehydrogenase_ctrl_L with rng_seed 3859055486.
+Featurising L_dehydrogenase_ctrl_L with rng_seed 3859055486 took 4.08 seconds.
+Featurising data for seeds (3859055486,) took  4.08 seconds.
+Running model inference for seed 3859055486...
+Running model inference for seed 3859055486 took  23.63 seconds.
+Extracting output structures (one per sample) for seed 3859055486...
+Extracting output structures (one per sample) for seed 3859055486 took  0.49 seconds.
+Running model inference and extracting output structures for seed 3859055486 took 24.12 seconds.
+Running model inference and extracting output structures for seeds (3859055486,) took 24.12 seconds.
+Writing outputs for L_dehydrogenase_ctrl_L for seed(s) (3859055486,)...
+Done processing fold input L_dehydrogenase_ctrl_L.
+Processing fold input #59
+Processing fold input L_dehydrogenase_ctrl_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.14 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/l_dehydrogenase_ctrl_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/l_dehydrogenase_ctrl_d
+Predicting 3D structure for L_dehydrogenase_ctrl_D for seed(s) (1097148378,)...
+Featurising data for seeds (1097148378,)...
+Featurising L_dehydrogenase_ctrl_D with rng_seed 1097148378.
+Featurising L_dehydrogenase_ctrl_D with rng_seed 1097148378 took 3.92 seconds.
+Featurising data for seeds (1097148378,) took  3.92 seconds.
+Running model inference for seed 1097148378...
+Running model inference for seed 1097148378 took  23.65 seconds.
+Extracting output structures (one per sample) for seed 1097148378...
+Extracting output structures (one per sample) for seed 1097148378 took  0.44 seconds.
+Running model inference and extracting output structures for seed 1097148378 took 24.10 seconds.
+Running model inference and extracting output structures for seeds (1097148378,) took 24.10 seconds.
+Writing outputs for L_dehydrogenase_ctrl_D for seed(s) (1097148378,)...
+Done processing fold input L_dehydrogenase_ctrl_D.
+Processing fold input #60
+Processing fold input L_dehydrogenase_ctrl_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.12 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/l_dehydrogenase_ctrl_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/l_dehydrogenase_ctrl_ld
+Predicting 3D structure for L_dehydrogenase_ctrl_LD for seed(s) (126423398,)...
+Featurising data for seeds (126423398,)...
+Featurising L_dehydrogenase_ctrl_LD with rng_seed 126423398.
+Featurising L_dehydrogenase_ctrl_LD with rng_seed 126423398 took 3.92 seconds.
+Featurising data for seeds (126423398,) took  3.92 seconds.
+Running model inference for seed 126423398...
+Running model inference for seed 126423398 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 126423398...
+Extracting output structures (one per sample) for seed 126423398 took  0.48 seconds.
+Running model inference and extracting output structures for seed 126423398 took 24.15 seconds.
+Running model inference and extracting output structures for seeds (126423398,) took 24.15 seconds.
+Writing outputs for L_dehydrogenase_ctrl_LD for seed(s) (126423398,)...
+Done processing fold input L_dehydrogenase_ctrl_LD.
+Processing fold input #61
+Processing fold input D_dehydrogenase_ctrl_L
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 1065.33 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/d_dehydrogenase_ctrl_l
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/d_dehydrogenase_ctrl_l
+Predicting 3D structure for D_dehydrogenase_ctrl_L for seed(s) (402933615,)...
+Featurising data for seeds (402933615,)...
+Featurising D_dehydrogenase_ctrl_L with rng_seed 402933615.
+Featurising D_dehydrogenase_ctrl_L with rng_seed 402933615 took 4.31 seconds.
+Featurising data for seeds (402933615,) took  4.31 seconds.
+Running model inference for seed 402933615...
+Running model inference for seed 402933615 took  23.62 seconds.
+Extracting output structures (one per sample) for seed 402933615...
+Extracting output structures (one per sample) for seed 402933615 took  0.47 seconds.
+Running model inference and extracting output structures for seed 402933615 took 24.09 seconds.
+Running model inference and extracting output structures for seeds (402933615,) took 24.09 seconds.
+Writing outputs for D_dehydrogenase_ctrl_L for seed(s) (402933615,)...
+Done processing fold input D_dehydrogenase_ctrl_L.
+Processing fold input #62
+Processing fold input D_dehydrogenase_ctrl_D
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.13 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/d_dehydrogenase_ctrl_d
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/d_dehydrogenase_ctrl_d
+Predicting 3D structure for D_dehydrogenase_ctrl_D for seed(s) (1306929317,)...
+Featurising data for seeds (1306929317,)...
+Featurising D_dehydrogenase_ctrl_D with rng_seed 1306929317.
+Featurising D_dehydrogenase_ctrl_D with rng_seed 1306929317 took 4.26 seconds.
+Featurising data for seeds (1306929317,) took  4.27 seconds.
+Running model inference for seed 1306929317...
+Running model inference for seed 1306929317 took  23.65 seconds.
+Extracting output structures (one per sample) for seed 1306929317...
+Extracting output structures (one per sample) for seed 1306929317 took  0.47 seconds.
+Running model inference and extracting output structures for seed 1306929317 took 24.12 seconds.
+Running model inference and extracting output structures for seeds (1306929317,) took 24.12 seconds.
+Writing outputs for D_dehydrogenase_ctrl_D for seed(s) (1306929317,)...
+Done processing fold input D_dehydrogenase_ctrl_D.
+Processing fold input #63
+Processing fold input D_dehydrogenase_ctrl_LD
+Checking we can load the model parameters...
+Running data pipeline...
+Processing chain A
+Processing chain A took 0.14 seconds
+Processing chain B
+Processing chain B took 0.00 seconds
+Processing chain C
+Processing chain C took 0.00 seconds
+Output directory: /home/skg245/2026_08_10_AF3_output/d_dehydrogenase_ctrl_ld
+Writing model input JSON to /home/skg245/2026_08_10_AF3_output/d_dehydrogenase_ctrl_ld
+Predicting 3D structure for D_dehydrogenase_ctrl_LD for seed(s) (97055577,)...
+Featurising data for seeds (97055577,)...
+Featurising D_dehydrogenase_ctrl_LD with rng_seed 97055577.
+Featurising D_dehydrogenase_ctrl_LD with rng_seed 97055577 took 4.30 seconds.
+Featurising data for seeds (97055577,) took  4.30 seconds.
+Running model inference for seed 97055577...
+Running model inference for seed 97055577 took  23.67 seconds.
+Extracting output structures (one per sample) for seed 97055577...
+Extracting output structures (one per sample) for seed 97055577 took  0.50 seconds.
+Running model inference and extracting output structures for seed 97055577 took 24.16 seconds.
+Running model inference and extracting output structures for seeds (97055577,) took 24.16 seconds.
+Writing outputs for D_dehydrogenase_ctrl_LD for seed(s) (97055577,)...
+Done processing fold input D_dehydrogenase_ctrl_LD.
+Done processing 63 fold inputs.
+
+###########################################################################
+
+Done.
+Exiting with exit code captured from true run_alphafold.py.
