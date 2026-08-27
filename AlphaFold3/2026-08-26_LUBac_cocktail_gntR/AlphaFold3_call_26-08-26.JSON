@@ -1,0 +1,166 @@
+[
+  {
+    "name": "GNTR_VA1_L",
+    "sequences": [
+      {
+        "proteinChain": {
+
+
+
+          "sequence": "MTKRLQPIRLDAYKPLSEVVSETLRSAIQDGTLKPGERLMEIPLAEELGVSRTPIREAIRKLELEGFVVMVPRRGTYVANISLKDITQVFEIRSALEELAAGLAAERITSDEIETLERMLVEIGDHMENKDMDSVVAADVAFHEVLYKASRNERLADIVHNLREQTYRFRSFSMNQPGRLRKTWEEHRLLVEAIASHNAVQARKLARIHMEHSEQTLLQGMEDAKSFNTEDI",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "2OP",
+          "count": 1
+        }
+      }
+    ],
+    "modelSeeds": [
+      
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  },
+  {
+    "name": "GNTR_VA1_D",
+    "sequences": [
+      {
+        "proteinChain": {
+
+
+
+          "sequence": "MTKRLQPIRLDAYKPLSEVVSETLRSAIQDGTLKPGERLMEIPLAEELGVSRTPIREAIRKLELEGFVVMVPRRGTYVANISLKDITQVFEIRSALEELAAGLAAERITSDEIETLERMLVEIGDHMENKDMDSVVAADVAFHEVLYKASRNERLADIVHNLREQTYRFRSFSMNQPGRLRKTWEEHRLLVEAIASHNAVQARKLARIHMEHSEQTLLQGMEDAKSFNTEDI",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "LAC",
+          "count": 1
+        }
+      }
+    ],
+    "modelSeeds": [
+      
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  },
+  {
+    "name": "GNTR_VA1_LD",
+    "sequences": [
+      {
+        "proteinChain": {
+
+
+
+          "sequence": "MTKRLQPIRLDAYKPLSEVVSETLRSAIQDGTLKPGERLMEIPLAEELGVSRTPIREAIRKLELEGFVVMVPRRGTYVANISLKDITQVFEIRSALEELAAGLAAERITSDEIETLERMLVEIGDHMENKDMDSVVAADVAFHEVLYKASRNERLADIVHNLREQTYRFRSFSMNQPGRLRKTWEEHRLLVEAIASHNAVQARKLARIHMEHSEQTLLQGMEDAKSFNTEDI",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "LAC",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "2OP",
+          "count": 1
+        }
+      }
+    ],
+    "modelSeeds": [
+      
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  },
+  {
+    "name": "GNTR_VA2_L",
+    "sequences": [
+      {
+        "proteinChain": {
+
+
+
+          "sequence": "MTKDVKGTKEPKDVYHFSAVDSIERLPLSEQVYVTLKQAILTGELLPQEKLNEVKIAEQLKVSATPVREAFRKLAKDNLVVIVPWKGVTVKADTPEEIVALYQCREVMEGLGARLCARHATPEQVAELKELCKEMHAIEDATARVEVNSRFHSMIAQFSGNDRVVDYLADFRERVNRDMYLSSFNAVRTHDCDDEHDHIVDAIERHDEVAAENAMREHINNAFIFKRANAELQDKKLNEV",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "2OP",
+          "count": 1
+        }
+      }
+    ],
+    "modelSeeds": [
+      
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  },
+  {
+    "name": "GNTR_VA2_D",
+    "sequences": [
+      {
+        "proteinChain": {
+
+
+
+          "sequence": "MTKDVKGTKEPKDVYHFSAVDSIERLPLSEQVYVTLKQAILTGELLPQEKLNEVKIAEQLKVSATPVREAFRKLAKDNLVVIVPWKGVTVKADTPEEIVALYQCREVMEGLGARLCARHATPEQVAELKELCKEMHAIEDATARVEVNSRFHSMIAQFSGNDRVVDYLADFRERVNRDMYLSSFNAVRTHDCDDEHDHIVDAIERHDEVAAENAMREHINNAFIFKRANAELQDKKLNEV",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "LAC",
+          "count": 1
+        }
+      }
+    ],
+    "modelSeeds": [
+      
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  },
+  {
+    "name": "GNTR_VA2_LD",
+    "sequences": [
+      {
+        "proteinChain": {
+
+
+
+          "sequence": "MTKDVKGTKEPKDVYHFSAVDSIERLPLSEQVYVTLKQAILTGELLPQEKLNEVKIAEQLKVSATPVREAFRKLAKDNLVVIVPWKGVTVKADTPEEIVALYQCREVMEGLGARLCARHATPEQVAELKELCKEMHAIEDATARVEVNSRFHSMIAQFSGNDRVVDYLADFRERVNRDMYLSSFNAVRTHDCDDEHDHIVDAIERHDEVAAENAMREHINNAFIFKRANAELQDKKLNEV",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "LAC",
+          "count": 1
+        }
+      },
+      {
+        "ligand": {
+          "ligand": "2OP",
+          "count": 1
+        }
+      }
+    ],
+    "modelSeeds": [
+      
+    ],
+    "dialect": "alphafoldserver",
+    "version": 1
+  }
+]
+
+
